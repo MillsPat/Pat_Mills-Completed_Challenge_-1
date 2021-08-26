@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #2a607c;
+    background-color: #d9dcd6;
 }
 
 .header {
@@ -29,8 +29,7 @@ body {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    font-style: bold;
+    font-size: 20px;
 }
 
 .header div ul {
@@ -47,20 +46,8 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    background-color: blue
-}
-
-
-
 p {
-    font-size: 30px;
-    text-align: center;
-}
-
-p2 {
-    font-size: 26px;
-    text-align: center;
+    font-size: 16px;
 }
 
 .hero {
@@ -97,44 +84,36 @@ p2 {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    display: inline-block;
-    border: 1px solid whitesmoke;
 }
 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
-    text-align: center;
 }
 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
-    text-align: center;
 }
 
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead h2 {
+.benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
-    border: 1px solid whitesmoke;
 }
 
-.benefit-brand h2 {
+.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-    border: 1px solid whitesmoke;
-}
-
-.benefit-cost h2 {
-    margin-bottom: 10px;
-    text-align: center;
-    border: 1px solid whitesmoke;
 }
 
 .benefit-lead img {
@@ -162,8 +141,6 @@ p2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    border: 1px solid whitesmoke;
-    text-align: left;
 }
 
 .online-reputation-management {
@@ -173,8 +150,6 @@ p2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    border: 1px solid whitesmoke;
-
 }
 
 .social-media-marketing {
@@ -184,7 +159,6 @@ p2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    border: 1px solid whitesmoke;
 }
 
 .search-engine-optimization img {
@@ -202,29 +176,25 @@ p2 {
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    text-align: center;
 }
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    text-align: center;
 }
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    text-align: center;
 }
 
 .footer {
-    padding: 0px;
+    padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: Center;
+    text-align: center;
 }
 
 .footer h2 {
     font-size: 20px;
-    text-align: Center;
 }
